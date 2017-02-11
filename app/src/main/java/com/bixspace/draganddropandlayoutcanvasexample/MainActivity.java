@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         imageView.setLayoutParams(params);
         AlertDialog.Builder builder =
                 new AlertDialog.Builder(this).
-                        setMessage("Message above the image").
+                        setMessage("Esta imagen pertenece al relative layout").
                         setPositiveButton("OK", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
